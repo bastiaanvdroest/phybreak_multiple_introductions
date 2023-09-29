@@ -98,7 +98,7 @@ phyb <- phybreak(phydata, wh.history = 20,
                  prior.sample.mean.mean = 10,
                  prior.wh.history.mean = 20, prior.wh.history.shape = 3,
                  prior.intro.rate = 6/190, prior.intro.rate.shape = 3,
-                 trans.model = "user", infectivity_file = "~/Documents/phd_files/nertsen/infectivity_function.R") 
+                 trans.model = "user", infectivity_file = "path/to/infectivity_function.R") 
 
 s <- sample_phybreak(phyb, nsample = 2e4, nchains = 1, parallel=F)
 
